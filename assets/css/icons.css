@@ -1,0 +1,1002 @@
+@font-face {
+  font-family: "tripadvisor";
+  src: url("../fonts//tripadvisor.eot?kl1xz6");
+  src: url("../fonts//tripadvisor.eot?kl1xz6#iefix") format("embedded-opentype"),
+    url("../fonts//tripadvisor.ttf?kl1xz6") format("truetype"),
+    url("../fonts//tripadvisor.woff?kl1xz6") format("woff"),
+    url("../fonts//tripadvisor.svg?kl1xz6#tripadvisor") format("svg");
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+i {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: "tripadvisor";
+  speak: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-tripad-hotels:before {
+  content: "\e000";
+}
+.icon-tripad-restaurants:before {
+  content: "\e001";
+}
+.icon-tripad-attractions:before {
+  content: "\e002";
+}
+.icon-tripad-vacation_rentals:before {
+  content: "\e003";
+}
+.icon-tripad-flights:before {
+  content: "\e004";
+}
+.icon-tripad-guides:before {
+  content: "\e005";
+}
+.icon-tripad-forums:before {
+  content: "\e006";
+}
+.icon-tripad-cruises:before {
+  content: "\e007";
+}
+.icon-tripad-rental_cars:before {
+  content: "\e008";
+}
+.icon-tripad-ta_ollie:before {
+  content: "\e009";
+}
+.icon-tripad-bubble_rating_bg:before {
+  content: "\e00a";
+}
+.icon-tripad-bubble_rating_full:before {
+  content: "\e00b";
+}
+.icon-tripad-bubble_rating_half:before {
+  content: "\e00c";
+}
+.icon-tripad-bubble_rating_empty:before {
+  content: "\e00d";
+}
+.icon-tripad-pencil_paper:before {
+  content: "\e00e";
+}
+.icon-tripad-pencil:before {
+  content: "\e00f";
+}
+.icon-tripad-camera:before {
+  content: "\e010";
+}
+.icon-tripad-heart:before {
+  content: "\e011";
+}
+.icon-tripad-heart_fill:before {
+  content: "\e012";
+}
+.icon-tripad-friend:before {
+  content: "\e013";
+}
+.icon-tripad-friends:before {
+  content: "\e014";
+}
+.icon-tripad-calendar:before {
+  content: "\e015";
+}
+.icon-tripad-clock:before {
+  content: "\e016";
+}
+.icon-tripad-globe_americas:before {
+  content: "\e017";
+}
+.icon-tripad-globe_world:before {
+  content: "\e018";
+}
+.icon-tripad-map_pin:before {
+  content: "\e019";
+}
+.icon-tripad-map_pin_fill:before {
+  content: "\e01a";
+}
+.icon-tripad-nearby:before {
+  content: "\e01b";
+}
+.icon-tripad-special_offer_45deg:before {
+  content: "\e01c";
+}
+.icon-tripad-special_offer:before {
+  content: "\e01d";
+}
+.icon-tripad-laptop:before {
+  content: "\e01e";
+}
+.icon-tripad-mobile_phone:before {
+  content: "\e01f";
+}
+.icon-tripad-neighborhoods:before {
+  content: "\e020";
+}
+.icon-tripad-neighborhoods_fill:before {
+  content: "\e021";
+}
+.icon-tripad-email:before {
+  content: "\e022";
+}
+.icon-tripad-star:before {
+  content: "\e023";
+}
+.icon-tripad-star_fill:before {
+  content: "\e024";
+}
+.icon-tripad-flag:before {
+  content: "\e025";
+}
+.icon-tripad-phone:before {
+  content: "\e026";
+}
+.icon-tripad-printer:before {
+  content: "\e027";
+}
+.icon-tripad-lightbulb_on:before {
+  content: "\e028";
+}
+.icon-tripad-external_link:before {
+  content: "\e029";
+}
+.icon-tripad-checkmark_boxed:before {
+  content: "\e02a";
+}
+.icon-tripad-checkmark:before {
+  content: "\e02b";
+}
+.icon-tripad-times:before {
+  content: "\e02c";
+}
+.icon-tripad-times_c:before {
+  content: "\e02d";
+}
+.icon-tripad-times_c_fill:before {
+  content: "\e02e";
+}
+.icon-tripad-plus:before {
+  content: "\e02f";
+}
+.icon-tripad-plus_c:before {
+  content: "\e030";
+}
+.icon-tripad-plus_c_fill:before {
+  content: "\e031";
+}
+.icon-tripad-minus:before {
+  content: "\e032";
+}
+.icon-tripad-minus_c:before {
+  content: "\e033";
+}
+.icon-tripad-minus_c_fill:before {
+  content: "\e034";
+}
+.icon-tripad-menu_bars:before {
+  content: "\e035";
+}
+.icon-tripad-refresh:before {
+  content: "\e036";
+}
+.icon-tripad-refresh_zapper:before {
+  content: "\e037";
+}
+.icon-tripad-single_chevron_up:before {
+  content: "\e038";
+}
+.icon-tripad-single_chevron_up_c:before {
+  content: "\e039";
+}
+.icon-tripad-single_chevron_up_c_fill:before {
+  content: "\e03a";
+}
+.icon-tripad-single_chevron_right:before {
+  content: "\e03b";
+}
+.icon-tripad-single_chevron_right_c:before {
+  content: "\e03c";
+}
+.icon-tripad-single_chevron_right_c_fill:before {
+  content: "\e03d";
+}
+.icon-tripad-single_chevron_down:before {
+  content: "\e03e";
+}
+.icon-tripad-single_chevron_down_c:before {
+  content: "\e03f";
+}
+.icon-tripad-single_chevron_down_c_fill:before {
+  content: "\e040";
+}
+.icon-tripad-single_chevron_left:before {
+  content: "\e041";
+}
+.icon-tripad-single_chevron_left_c:before {
+  content: "\e042";
+}
+.icon-tripad-single_chevron_left_c_fill:before {
+  content: "\e043";
+}
+.icon-tripad-caret_up:before {
+  content: "\e044";
+}
+.icon-tripad-caret_right:before {
+  content: "\e047";
+}
+.icon-tripad-caret_down:before {
+  content: "\e04a";
+}
+.icon-tripad-caret_left:before {
+  content: "\e04d";
+}
+.icon-tripad-exclamation_c:before {
+  content: "\e050";
+}
+.icon-tripad-exclamation_c_fill:before {
+  content: "\e051";
+}
+.icon-tripad-information_c:before {
+  content: "\e052";
+}
+.icon-tripad-information_c_fill:before {
+  content: "\e053";
+}
+.icon-tripad-question_c:before {
+  content: "\e054";
+}
+.icon-tripad-question_c_fill:before {
+  content: "\e055";
+}
+.icon-tripad-search:before {
+  content: "\e056";
+}
+.icon-tripad-thumbs_up_fill:before {
+  content: "\e057";
+}
+.icon-tripad-thumbs_down_fill:before {
+  content: "\e058";
+}
+.icon-tripad-certificate_of_excellence:before {
+  content: "\e059";
+}
+.icon-tripad-green_leaders:before {
+  content: "\e05a";
+}
+.icon-tripad-amusement_parks:before {
+  content: "\e05b";
+}
+.icon-tripad-wifi:before {
+  content: "\e05c";
+}
+.icon-tripad-parking:before {
+  content: "\e05d";
+}
+.icon-tripad-coffee_tea_cafe:before {
+  content: "\e05e";
+}
+.icon-tripad-notification_bell:before {
+  content: "\e05f";
+}
+.icon-tripad-tickets:before {
+  content: "\e060";
+}
+.icon-tripad-arrow_left_prohibited:before {
+  content: "\e061";
+}
+.icon-tripad-empty_cart:before {
+  content: "\e062";
+}
+.icon-tripad-activities:before {
+  content: "\e063";
+}
+.icon-tripad-pool:before {
+  content: "\e064";
+}
+.icon-tripad-pet_friendly:before {
+  content: "\e065";
+}
+.icon-tripad-smoking:before {
+  content: "\e066";
+}
+.icon-tripad-smoking_prohibited:before {
+  content: "\e067";
+}
+.icon-tripad-bar:before {
+  content: "\e068";
+}
+.icon-tripad-sun:before {
+  content: "\e069";
+}
+.icon-tripad-guides_fill:before {
+  content: "\e06a";
+}
+.icon-tripad-comments:before {
+  content: "\e06b";
+}
+.icon-tripad-comments_fill:before {
+  content: "\e06c";
+}
+.icon-tripad-email_fill:before {
+  content: "\e06d";
+}
+.icon-tripad-adult:before {
+  content: "\e06e";
+}
+.icon-tripad-child:before {
+  content: "\e06f";
+}
+.icon-tripad-present:before {
+  content: "\e070";
+}
+.icon-tripad-announcement_fill_26deg:before {
+  content: "\e071";
+}
+.icon-tripad-announcement_fill:before {
+  content: "\e072";
+}
+.icon-tripad-trash:before {
+  content: "\e073";
+}
+.icon-tripad-prohibited:before {
+  content: "\e074";
+}
+.icon-tripad-night:before {
+  content: "\e075";
+}
+.icon-tripad-arrow_up:before {
+  content: "\e076";
+}
+.icon-tripad-arrow_up_thick:before {
+  content: "\e077";
+}
+.icon-tripad-restore:before {
+  content: "\e078";
+}
+.icon-tripad-arrow_right:before {
+  content: "\e079";
+}
+.icon-tripad-arrow_right_thick:before {
+  content: "\e07a";
+}
+.icon-tripad-arrow_down:before {
+  content: "\e07c";
+}
+.icon-tripad-arrow_down_thick:before {
+  content: "\e07d";
+}
+.icon-tripad-archive:before {
+  content: "\e07e";
+}
+.icon-tripad-arrow_left:before {
+  content: "\e07f";
+}
+.icon-tripad-arrow_left_thick:before {
+  content: "\e080";
+}
+.icon-tripad-external_link_no_box:before {
+  content: "\e082";
+}
+.icon-tripad-expand:before {
+  content: "\e083";
+}
+.icon-tripad-special_offer_fill_45deg:before {
+  content: "\e084";
+}
+.icon-tripad-special_offer_fill:before {
+  content: "\e085";
+}
+.icon-tripad-friend_fill:before {
+  content: "\e086";
+}
+.icon-tripad-add_friend:before {
+  content: "\e087";
+}
+.icon-tripad-star_rating_full:before {
+  content: "\e088";
+}
+.icon-tripad-star_rating_half:before {
+  content: "\e089";
+}
+.icon-tripad-children:before {
+  content: "\e08a";
+}
+.icon-tripad-travelers_choice_badge:before {
+  content: "\e08b";
+}
+.icon-tripad-checkmark_c_fill:before {
+  content: "\e08c";
+}
+.icon-tripad-lock:before {
+  content: "\e08d";
+}
+.icon-tripad-lock_fill:before {
+  content: "\e08e";
+}
+.icon-tripad-diagonal_c_half_fill:before {
+  content: "\e08f";
+}
+.icon-tripad-settings:before {
+  content: "\e090";
+}
+.icon-tripad-more_horizontal:before {
+  content: "\e091";
+}
+.icon-tripad-more_vertical:before {
+  content: "\e092";
+}
+.icon-tripad-checkbox_border:before {
+  content: "\e093";
+}
+.icon-tripad-checkbox_checked:before {
+  content: "\e094";
+}
+.icon-tripad-alert_fill:before {
+  content: "\e095";
+}
+.icon-tripad-alert:before {
+  content: "\e096";
+}
+.icon-tripad-instant:before {
+  content: "\e097";
+}
+.icon-tripad-dmo:before {
+  content: "\e098";
+}
+.icon-tripad-reply_fill:before {
+  content: "\e099";
+}
+.icon-tripad-share:before {
+  content: "\e09a";
+}
+.icon-tripad-feedback_love:before {
+  content: "\e09b";
+}
+.icon-tripad-traveler_article:before {
+  content: "\e09c";
+}
+.icon-tripad-custom_note:before {
+  content: "\e09d";
+}
+.icon-tripad-level_badge:before {
+  content: "\e09e";
+}
+.icon-tripad-level_badge_fill:before {
+  content: "\e09f";
+}
+.icon-tripad-award:before {
+  content: "\e0a0";
+}
+.icon-tripad-bell:before {
+  content: "\e0a1";
+}
+.icon-tripad-deals:before {
+  content: "\e0a2";
+}
+.icon-tripad-destination:before {
+  content: "\e0a3";
+}
+.icon-tripad-camera_fill:before {
+  content: "\e0a4";
+}
+.icon-tripad-lock_open:before {
+  content: "\e0a5";
+}
+.icon-tripad-lock_open_fill:before {
+  content: "\e0a6";
+}
+.icon-tripad-tools:before {
+  content: "\e0a7";
+}
+.icon-tripad-favorite_pin:before {
+  content: "\e0a8";
+}
+.icon-tripad-layers:before {
+  content: "\e0a9";
+}
+.icon-tripad-member:before {
+  content: "\e0aa";
+}
+.icon-tripad-member_fill:before {
+  content: "\e0ab";
+}
+.icon-tripad-credit_card:before {
+  content: "\e0ac";
+}
+.icon-tripad-wallet_fill:before {
+  content: "\e0ad";
+}
+.icon-tripad-wallet:before {
+  content: "\e0ae";
+}
+.icon-tripad-gallery:before {
+  content: "\e0af";
+}
+.icon-tripad-video_fill:before {
+  content: "\e0b0";
+}
+.icon-tripad-photo:before {
+  content: "\e0b1";
+}
+.icon-tripad-storyboard:before {
+  content: "\e0b2";
+}
+.icon-tripad-management_center:before {
+  content: "\e0b3";
+}
+.icon-tripad-flights_arrival:before {
+  content: "\e0b4";
+}
+.icon-tripad-flights_departure:before {
+  content: "\e0b5";
+}
+.icon-tripad-repost_fill:before {
+  content: "\e0b6";
+}
+.icon-tripad-link:before {
+  content: "\e0b7";
+}
+.icon-tripad-quote_decorative:before {
+  content: "\e0b8";
+}
+.icon-tripad-quote:before {
+  content: "\e0b9";
+}
+.icon-tripad-bookmark:before {
+  content: "\e0ba";
+}
+.icon-tripad-bookmark_fill:before {
+  content: "\e0bb";
+}
+.icon-tripad-verified_checkmark:before {
+  content: "\e0bc";
+}
+.icon-tripad-verified_checkmark_bg:before {
+  content: "\e0bd";
+}
+.icon-tripad-users:before {
+  content: "\e0be";
+}
+.icon-tripad-pause:before {
+  content: "\e0bf";
+}
+.icon-tripad-play:before {
+  content: "\e0c0";
+}
+.icon-tripad-volume_off:before {
+  content: "\e0c1";
+}
+.icon-tripad-volume_on:before {
+  content: "\e0c2";
+}
+.icon-tripad-suitcase:before {
+  content: "\e0c3";
+}
+.icon-tripad-suitcase_fill:before {
+  content: "\e0c4";
+}
+.icon-tripad-my_trips:before {
+  content: "\e0c5";
+}
+.icon-tripad-compass:before {
+  content: "\e0c7";
+}
+.icon-tripad-compass_fill:before {
+  content: "\e0c8";
+}
+.icon-tripad-sort:before {
+  content: "\e0c9";
+}
+.icon-tripad-text_message:before {
+  content: "\e0ca";
+}
+.icon-tripad-bathroom_fill:before {
+  content: "\e0cb";
+}
+.icon-tripad-ports:before {
+  content: "\e0cc";
+}
+.icon-tripad-map_and_pin:before {
+  content: "\e0cd";
+}
+.icon-tripad-repost:before {
+  content: "\e0ce";
+}
+.icon-tripad-notification_bell_fill:before {
+  content: "\e0cf";
+}
+.icon-tripad-partner:before {
+  content: "\e0d0";
+}
+.icon-tripad-instagram:before {
+  content: "\e0d1";
+}
+.icon-tripad-pinterest:before {
+  content: "\e0d2";
+}
+.icon-tripad-facebook:before {
+  content: "\e0d3";
+}
+.icon-tripad-twitter:before {
+  content: "\e0d4";
+}
+.icon-tripad-youtube:before {
+  content: "\e0d5";
+}
+.icon-tripad-no_bag:before {
+  content: "\e0d6";
+}
+.icon-tripad-taxi:before {
+  content: "\e0d7";
+}
+.icon-tripad-train:before {
+  content: "\e0d8";
+}
+.icon-tripad-map:before {
+  content: "\e0d9";
+}
+.icon-tripad-filter:before {
+  content: "\e0da";
+}
+.icon-tripad-duration:before {
+  content: "\e0db";
+}
+.icon-tripad-menu:before {
+  content: "\e0dc";
+}
+.icon-tripad-casino:before {
+  content: "\e0dd";
+}
+.icon-tripad-castle:before {
+  content: "\e0de";
+}
+.icon-tripad-family:before {
+  content: "\e0df";
+}
+.icon-tripad-luxury:before {
+  content: "\e0e0";
+}
+.icon-tripad-on_the_beach:before {
+  content: "\e0e1";
+}
+.icon-tripad-onsen:before {
+  content: "\e0e2";
+}
+.icon-tripad-outdoors:before {
+  content: "\e0e3";
+}
+.icon-tripad-resort:before {
+  content: "\e0e4";
+}
+.icon-tripad-romantic:before {
+  content: "\e0e5";
+}
+.icon-tripad-ryokan:before {
+  content: "\e0e6";
+}
+.icon-tripad-ski_in_ski_out:before {
+  content: "\e0e7";
+}
+.icon-tripad-spa:before {
+  content: "\e0e8";
+}
+.icon-tripad-air_conditioning:before {
+  content: "\e0e9";
+}
+.icon-tripad-dry_cleaning:before {
+  content: "\e0ea";
+}
+.icon-tripad-internet:before {
+  content: "\e0eb";
+}
+.icon-tripad-multilingual:before {
+  content: "\e0ec";
+}
+.icon-tripad-conference_center:before {
+  content: "\e0ed";
+}
+.icon-tripad-audio:before {
+  content: "\e0ee";
+}
+.icon-tripad-beverage:before {
+  content: "\e0ef";
+}
+.icon-tripad-photo_id:before {
+  content: "\e0f0";
+}
+.icon-tripad-top_three:before {
+  content: "\e0f1";
+}
+.icon-tripad-voucher:before {
+  content: "\e0f2";
+}
+.icon-tripad-bag:before {
+  content: "\e0f3";
+}
+.icon-tripad-television:before {
+  content: "\e0f4";
+}
+.icon-tripad-power:before {
+  content: "\e0f5";
+}
+.icon-tripad-usb:before {
+  content: "\e0f6";
+}
+.icon-tripad-seat_regular:before {
+  content: "\e0f7";
+}
+.icon-tripad-seat_angled_bed:before {
+  content: "\e0f8";
+}
+.icon-tripad-seat_flat_bed:before {
+  content: "\e0f9";
+}
+.icon-tripad-eye:before {
+  content: "\e0fa";
+}
+.icon-tripad-eye_fill:before {
+  content: "\e0fb";
+}
+.icon-tripad-accessible:before {
+  content: "\e0fc";
+}
+.icon-tripad-shopping_bag:before {
+  content: "\e0fd";
+}
+.icon-tripad-classes_workshops:before {
+  content: "\e0fe";
+}
+.icon-tripad-fun_games:before {
+  content: "\e0ff";
+}
+.icon-tripad-museums:before {
+  content: "\e100";
+}
+.icon-tripad-theater_concerts:before {
+  content: "\e101";
+}
+.icon-tripad-zoo_aquarium:before {
+  content: "\e102";
+}
+.icon-tripad-food_drink:before {
+  content: "\e103";
+}
+.icon-tripad-alcohol:before {
+  content: "\e104";
+}
+.icon-tripad-ambience:before {
+  content: "\e105";
+}
+.icon-tripad-buffet:before {
+  content: "\e106";
+}
+.icon-tripad-delivery:before {
+  content: "\e107";
+}
+.icon-tripad-directions:before {
+  content: "\e108";
+}
+.icon-tripad-highchair:before {
+  content: "\e109";
+}
+.icon-tripad-outdoor_seating:before {
+  content: "\e10a";
+}
+.icon-tripad-private_event:before {
+  content: "\e10b";
+}
+.icon-tripad-seating:before {
+  content: "\e10c";
+}
+.icon-tripad-street_food:before {
+  content: "\e10d";
+}
+.icon-tripad-takeout:before {
+  content: "\e10e";
+}
+.icon-tripad-waitstaff:before {
+  content: "\e10f";
+}
+.icon-tripad-wine_beer:before {
+  content: "\e110";
+}
+.icon-tripad-hospital:before {
+  content: "\e111";
+}
+.icon-tripad-office:before {
+  content: "\e112";
+}
+.icon-tripad-doors:before {
+  content: "\e113";
+}
+.icon-tripad-fuel:before {
+  content: "\e114";
+}
+.icon-tripad-transmission:before {
+  content: "\e115";
+}
+.icon-tripad-gallery_dynamic:before {
+  content: "\e116";
+}
+.icon-tripad-weather_clear_night:before {
+  content: "\e117";
+}
+.icon-tripad-weather_cloud:before {
+  content: "\e118";
+}
+.icon-tripad-weather_cloudy:before {
+  content: "\e119";
+}
+.icon-tripad-weather_cloudy_night:before {
+  content: "\e11a";
+}
+.icon-tripad-weather_partly_cloudy:before {
+  content: "\e11b";
+}
+.icon-tripad-weather_rain:before {
+  content: "\e11c";
+}
+.icon-tripad-weather_heavy_rain:before {
+  content: "\e11d";
+}
+.icon-tripad-weather_thunderstorm:before {
+  content: "\e11e";
+}
+.icon-tripad-weather_heavy_thunder:before {
+  content: "\e11f";
+}
+.icon-tripad-weather_stormy:before {
+  content: "\e120";
+}
+.icon-tripad-weather_windy_cloudy:before {
+  content: "\e121";
+}
+.icon-tripad-weather_wind:before {
+  content: "\e122";
+}
+.icon-tripad-twenty_four_hour_cancellation:before {
+  content: "\e123";
+}
+.icon-tripad-low_price:before {
+  content: "\e124";
+}
+.icon-tripad-bakery:before {
+  content: "\e125";
+}
+.icon-tripad-dessert:before {
+  content: "\e126";
+}
+.icon-tripad-fitness:before {
+  content: "\e127";
+}
+.icon-tripad-bubble_rating_bg_refresh:before {
+  content: "\e128";
+}
+.icon-tripad-bubble_rating_full_refresh:before {
+  content: "\e129";
+}
+.icon-tripad-bubble_rating_half_refresh:before {
+  content: "\e12a";
+}
+.icon-tripad-bubble_rating_empty_refresh:before {
+  content: "\e12b";
+}
+.icon-tripad-membership:before {
+  content: "\e12c";
+}
+.icon-tripad-group_tour:before {
+  content: "\e12d";
+}
+.icon-tripad-heart_stack:before {
+  content: "\e12e";
+}
+.icon-tripad-heart_stack_fill:before {
+  content: "\e12f";
+}
+.icon-tripad-trip_protect:before {
+  content: "\e130";
+}
+.icon-tripad-whatsapp:before {
+  content: "\e131";
+}
+.icon-tripad-room_suite:before {
+  content: "\e132";
+}
+.icon-tripad-nearby_fill:before {
+  content: "\e133";
+}
+.icon-tripad-inbox:before {
+  content: "\e134";
+}
+.icon-tripad-drag_handle:before {
+  content: "\e135";
+}
+.icon-tripad-list:before {
+  content: "\e136";
+}
+.icon-tripad-radio_border:before {
+  content: "\e137";
+}
+.icon-tripad-radio_checked:before {
+  content: "\e138";
+}
+.icon-tripad-water_activities:before {
+  content: "\e139";
+}
+.icon-tripad-thumbs_up:before {
+  content: "\e13a";
+}
+.icon-tripad-thumbs_down:before {
+  content: "\e13b";
+}
+.icon-tripad-amusement_parks_fill:before {
+  content: "\e13c";
+}
+.icon-tripad-bakery_fill:before {
+  content: "\e13d";
+}
+.icon-tripad-bar_fill:before {
+  content: "\e13e";
+}
+.icon-tripad-casino_fill:before {
+  content: "\e13f";
+}
+.icon-tripad-coffee_tea_cafe_fill:before {
+  content: "\e140";
+}
+.icon-tripad-dessert_fill:before {
+  content: "\e141";
+}
+.icon-tripad-hotels_fill:before {
+  content: "\e142";
+}
+.icon-tripad-museums_fill:before {
+  content: "\e143";
+}
+.icon-tripad-outdoors_fill:before {
+  content: "\e144";
+}
+.icon-tripad-pet_friendly_fill:before {
+  content: "\e145";
+}
+.icon-tripad-restaurants_fill:before {
+  content: "\e146";
+}
+.icon-tripad-empty_cart_fill:before {
+  content: "\e147";
+}
+.icon-tripad-shopping_bag_fill:before {
+  content: "\e148";
+}
+.icon-tripad-spa_fill:before {
+  content: "\e149";
+}
+.icon-tripad-attractions_fill:before {
+  content: "\e14a";
+}
+.icon-tripad-train_fill:before {
+  content: "\e14b";
+}
+.icon-tripad-water_activities_fill:before {
+  content: "\e14c";
+}
+.icon-tripad-classes_workshops_fill:before {
+  content: "\e14d";
+}
+.icon-tripad-location:before {
+  content: "\e14e";
+}
+.icon-tripad-location_fill:before {
+  content: "\e14f";
+}

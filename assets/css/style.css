@@ -1,0 +1,620 @@
+/*GENERAL */
+body {
+  font-family: "Trip Sans Regular", Arial, Helvetica, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: white;
+  font-size: 16px;
+}
+
+.container {
+  width: 1280px;
+  margin: 50px auto;
+}
+
+.hidden {
+  display: none;
+}
+
+i {
+  font-size: 25px;
+}
+
+/*  HEADER */
+
+header .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+header img {
+  width: 188px;
+  height: 40px;
+}
+
+header img:hover {
+  cursor: pointer;
+}
+
+header ul i {
+  margin-right: 2px;
+}
+
+header ul li {
+  border: 2px solid white;
+  padding: 8px;
+  border-radius: 12px;
+  margin-right: 10px;
+}
+
+header ul button {
+  font-family: inherit;
+  border-style: none;
+  color: white;
+  background-color: black;
+  padding: 10px 12px;
+  border-radius: 20px;
+  font-size: inherit;
+  line-height: 20px;
+}
+
+header ul button:hover {
+  background-color: #474747;
+  cursor: pointer;
+}
+
+header ul li:hover {
+  border: 2px solid black;
+  cursor: pointer;
+}
+
+header nav ul {
+  display: flex;
+  font-family: "Trip Sans Medium", Arial, Helvetica, sans-serif;
+  line-height: 20px;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/*  MAIN */
+
+h1 {
+  font-family: "Trip Sans Medium", Arial, Helvetica, sans-serif;
+  font-size: 54px;
+  font-weight: 900;
+  margin-bottom: 25px;
+}
+
+h1 span {
+  color: #ff5d5d;
+}
+
+/* menu section */
+
+.menu-group {
+  display: flex;
+}
+
+.menu {
+  display: flex;
+  justify-content: space-between;
+  font-family: "Trip Sans Medium", Arial, Helvetica, sans-serif;
+  font-size: 16px;
+  line-height: 20px;
+}
+
+.menu div {
+  display: flex;
+  justify-content: space-between;
+  flex: 1;
+  width: 167px;
+  height: 64px;
+  padding: 14px;
+  border-radius: 15px;
+  border: 1px solid black;
+  box-sizing: border-box;
+}
+
+.menu div:hover {
+  background-color: black;
+  color: white;
+}
+
+.menu div:not(:last-child) {
+  margin-right: 18px;
+}
+
+.menu-group article:nth-child(1) {
+  margin-right: 18px;
+}
+
+.menu .hidden {
+  display: none;
+}
+
+/* SECTION PHOTOS SOUS MENU NAV */
+.photos {
+  margin-top: 25px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.photos div.col-1 {
+  width: 798px;
+  height: 430px;
+  margin-right: 2px;
+  position: relative;
+}
+
+.photos div.col-2 {
+  width: 480px;
+  height: 428px;
+}
+
+.photos div.col-2 img {
+  height: calc(50% - 1px);
+  width: 100%;
+  object-fit: cover;
+  object-position: top;
+}
+
+.photos div.col-2 img:nth-child(1) {
+  border-top-right-radius: 10px;
+}
+
+.photos div.col-2 img:nth-child(2) {
+  border-bottom-right-radius: 10px;
+}
+
+.photos div.col-1 img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  object-position: bottom;
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+}
+
+.photos div.col-2 img:hover,
+.photos div.col-1 img:hover {
+  opacity: 0.8;
+  cursor: pointer;
+}
+
+.incrustation {
+  background-color: rgba(0, 0, 0, 0.5);
+  padding: 5px;
+  margin: 16px;
+  color: white;
+  border-radius: 20px;
+  font-family: "Trip Sans Medium", Arial, Helvetica, sans-serif;
+  font-size: 12px;
+  line-height: 14.4px;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
+
+.photos .incrustation i {
+  font-size: 20px;
+}
+
+/* SOUS-TITRES SOUS PHOTOS  */
+
+.subtitle {
+  margin-top: 25px;
+  line-height: 120%;
+  font-size: 12px;
+  display: flex;
+  justify-content: space-between;
+  align-content: center;
+}
+
+.subtitle div i {
+  font-size: 10px;
+}
+
+/* SECTION VILLE LUMIERE */
+
+.ville-lumiere {
+  margin-top: 45px;
+  display: flex;
+  justify-content: space-between;
+  align-content: center;
+}
+
+.ville-lumiere h2 {
+  font-family: "Trip Sans Medium";
+  font-size: 32px;
+  line-height: 120%;
+  font-weight: 900;
+}
+
+.ville-lumiere .col-1 p {
+  margin-top: 11px;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  line-height: 24px;
+  color: #474747;
+}
+
+.ville-lumiere .col-2 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: space-between;
+  flex: 3;
+}
+
+.ville-lumiere .col-1 {
+  padding-right: 10%;
+  flex: 3;
+}
+
+.ville-lumiere .col-2 div:nth-child(1) {
+  height: auto;
+  background-color: #ff5d5d;
+  border-top-right-radius: 10px;
+  border-top-left-radius: 10px;
+}
+
+.ville-lumiere .col-2 div:nth-child(2) {
+  height: 187px;
+  background-image: url(../img/trips_card.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+
+.ville-lumiere .col-2 h2 {
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 40px;
+  margin: 23px 3px 0 23px;
+}
+
+.ville-lumiere .col-2 p {
+  font-family: inherit;
+  font-size: 16px;
+  line-height: 20px;
+  color: black;
+  padding: 25px 30px;
+}
+
+.ville-lumiere .col-2 button {
+  font-family: inherit;
+  border-style: none;
+  color: white;
+  background-color: black;
+  padding: 15px;
+  border-radius: 20px;
+  font-size: inherit;
+  line-height: 20px;
+  margin: 0 30px 30px 30px;
+}
+
+.ville-lumiere .col-2 button:hover {
+  background-color: #474747;
+  cursor: pointer;
+}
+
+/* TITRES ---H2--- */
+
+.h2-title {
+  margin-top: 70px;
+  display: flex;
+  align-items: center;
+}
+.h2-title div {
+  flex: 1;
+  border-top: 1px solid black;
+}
+
+.h2-title h2 {
+  padding: 10px;
+  font-family: "Trip Sans Medium", Arial, Helvetica, sans-serif;
+  font-size: 32px;
+  line-height: 32.8px;
+  font-weight: 900;
+}
+
+/* SECTION CONSEILS DE VOYAGE */
+
+.conseils-voyage > div:nth-child(2) {
+  margin-top: 30px;
+  font-size: 14px;
+  line-height: 16.8px;
+  font-weight: 800;
+  text-align: right;
+}
+
+.conseils-voyage > div:nth-child(2):hover {
+  text-decoration: underline;
+  cursor: pointer;
+}
+.voyage-nav {
+  margin-top: 26px;
+  display: flex;
+  align-content: center;
+}
+
+.voyage-nav .col-1 {
+  display: flex;
+  justify-content: space-between;
+  align-content: center;
+  flex: 1;
+}
+
+.voyage-nav .col-2 {
+  display: flex;
+  justify-content: space-between;
+  align-content: center;
+  flex: 1;
+}
+
+.voyage-nav section div {
+  font-size: 20px;
+  line-height: 28px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border: 2px solid lightgray;
+  border-radius: 10px;
+  margin-right: 16px;
+  flex: 1;
+}
+
+.voyage-nav div img {
+  flex: 1;
+}
+
+.voyage-nav div span {
+  flex: 2;
+}
+
+.voyage-nav section:nth-child(2) > div:nth-child(2) {
+  margin-right: 0;
+}
+
+.voyage-nav img {
+  width: 88px;
+  height: 80px;
+}
+
+/*  ------------  */
+/*  MEDIA QUERIES */
+/*  ------------  */
+
+@media (max-width: 1328px) {
+  .container {
+    width: 96%;
+    margin: 24px auto;
+  }
+
+  /* SECTION MENU */
+
+  .menu .hidden {
+    display: flex;
+  }
+  .menu-group {
+    flex-direction: column;
+  }
+
+  .menu div {
+    width: 350px;
+    height: 50px;
+    align-items: center;
+  }
+
+  .menu-group article:nth-last-child(1) {
+    margin-top: 20px;
+  }
+
+  .menu-group article:nth-child(1) {
+    margin-right: 0;
+  }
+
+  /*  PHOTOS SOUS LE MENU NAV */
+
+  .photos div.col-1 {
+    width: 100%;
+    height: 372px;
+    margin-right: 2px;
+  }
+
+  .photos div.col-2 {
+    width: 402px;
+    height: 370px;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  .container {
+    width: 96%;
+    margin: 24px auto;
+  }
+
+  /* HEADER */
+
+  header img {
+    width: 169px;
+    height: 36px;
+    line-height: 65px;
+    letter-spacing: 1.08px;
+  }
+
+  header nav span {
+    display: none;
+  }
+
+  /* SECTION MENU */
+
+  .menu div {
+    padding: 10px;
+    width: 350px;
+    height: 50px;
+  }
+
+  .photos div.col-1 {
+    width: 100%;
+    height: 276px;
+    margin-right: 2px;
+  }
+
+  .photos div.col-2 {
+    width: 282px;
+    height: 274px;
+  }
+
+  /* SECTION VILLE LUMIERE  */
+
+  .ville-lumiere .col-1 {
+    padding-right: 0;
+  }
+
+  .ville-lumiere .col-2 {
+    flex-direction: row;
+    margin-top: 60px;
+  }
+
+  .ville-lumiere .col-2 div:nth-child(1) {
+    flex: 1;
+    height: 292px;
+    border-radius: 0;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+  }
+
+  .ville-lumiere .col-2 div:nth-child(2) {
+    flex: 1;
+    height: 292px;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+  }
+
+  .ville-lumiere {
+    flex-direction: column;
+  }
+
+  /*  SECTION VOYAGE */
+
+  .voyage-nav {
+    margin-top: 26px;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+  }
+
+  .voyage-nav .col-1 div:nth-child(2) {
+    margin: 0;
+  }
+
+  .voyage-nav .col-2 {
+    margin-top: 16px;
+  }
+}
+
+@media (max-width: 768px) {
+  .container {
+    width: 96%;
+    margin: 24px auto;
+  }
+
+  /* HEADER */
+
+  header img {
+    width: 132px;
+    height: 50px;
+    margin: 0 auto;
+  }
+
+  header i.hidden {
+    display: flex;
+    font-size: 25px;
+  }
+  header nav button {
+    display: none;
+  }
+
+  header ul li {
+    display: none;
+  }
+
+  h1 {
+    font-size: 32px;
+    letter-spacing: 0.64px;
+  }
+
+  /* SECTION MENU */
+
+  .menu div {
+    width: 350px;
+    height: 50px;
+    padding: 5px;
+  }
+
+  .menu div:not(:last-child) {
+    margin-right: 8px;
+  }
+
+  .menu-group article:nth-child(2) div:nth-child(4),
+  .menu-group article:nth-child(1) div:nth-child(3) {
+    margin-right: 0;
+  }
+
+  .small-media-hidden {
+    display: none !important;
+  }
+
+  .menu div:nth-child(4) {
+    margin-right: 8px;
+  }
+
+  .photos div.col-1 {
+    width: 100%;
+    height: 276px;
+    margin-right: 2px;
+  }
+
+  .photos div.col-2 {
+    display: none;
+  }
+
+  .photos div.col-1 img {
+    border-radius: 0;
+    width: 100%;
+  }
+
+  /* SUBTITLE SOUS PHOTOS */
+
+  .subtitle {
+    display: none;
+  }
+
+  /* H2 TITLES */
+
+  .h2-title h2 {
+    font-size: 24px;
+    line-height: 28.8px;
+  }
+
+  /*  SECTION VOYAGE */
+
+  .voyage-nav {
+    margin-top: 26px;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+  }
+
+  .voyage-nav .col-1 div:nth-child(2) {
+    margin: 0;
+  }
+
+  .voyage-nav .col-2 {
+    margin-top: 16px;
+  }
+}
