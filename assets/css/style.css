@@ -384,6 +384,12 @@ h1 span {
   height: 80px;
 }
 
+.voyage-nav div:hover {
+  border-color: black;
+  text-decoration: underline;
+  cursor: pointer;
+}
+
 /*  ------------  */
 /*  MEDIA QUERIES */
 /*  ------------  */
