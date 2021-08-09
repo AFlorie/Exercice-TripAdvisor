@@ -8,27 +8,33 @@
     <link rel="stylesheet" href="./assets/css/icons.css" />
     <link rel="stylesheet" href="./assets/css/style.css" />
     <script src="assets/js/main.js"></script>
-    <title>Exercice copie TripAdvisor</title>
+    <title>Exercice d'intégration TripAdvisor</title>
   </head>
   <body>
     <!--  HEADER -->
     <header>
       <div class="container">
-        <i class="icon-tripad-menu_bars hidden"></i>
-        <img src="./assets/img/Tripadvisor_logo.svg" />
         <nav>
+          <i class="icon-tripad-menu_bars hidden"></i>
+          <img src="./assets/img/Tripadvisor_logo.svg" />
+          <!-- <i class="icon-tripad-search hidden"></i> -->
+          <div class="mobile_hidden">
+            <input type="text" id="searchBar" />
+            <i class="icon-tripad-search"></i>
+          </div>
+
           <ul>
             <li>
-              <i class="icon-tripad-plus_c"></i>
-              <span>Publier</span>
-            </li>
-            <li>
-              <i class="icon-tripad-notification_bell"></i>
-              <span>Alertes</span>
+              <i class="icon-tripad-pencil"></i>
+              <span>Avis</span>
             </li>
             <li>
               <i class="icon-tripad-heart"></i>
               <span>Voyages</span>
+            </li>
+            <li>
+              <i class="icon-tripad-notification_bell"></i>
+              <span>Alertes</span>
             </li>
             <button>Connectez-vous</button>
           </ul>
@@ -48,10 +54,6 @@
         <section class="menu-group">
           <article class="menu">
             <div>
-              <span>Conseils de voyage</span>
-              <i class="icon-tripad-destination"></i>
-            </div>
-            <div>
               <span>Hôtels</span>
               <i class="icon-tripad-hotels"></i>
             </div>
@@ -63,13 +65,13 @@
               <span>Activités</span>
               <i class="icon-tripad-attractions"></i>
             </div>
-          </article>
-
-          <article class="menu">
             <div>
               <span>Restaurants</span>
               <i class="icon-tripad-restaurants"></i>
             </div>
+          </article>
+
+          <article class="menu">
             <div class="small-media-hidden">
               <span>Forums de voyage</span>
               <i class="icon-tripad-forums"></i>
@@ -77,6 +79,10 @@
             <div class="hidden">
               <span>Vols</span>
               <i class="icon-tripad-flights"></i>
+            </div>
+            <div class="hidden">
+              <span>Croisières</span>
+              <i class="icon-tripad-cruises"></i>
             </div>
             <div>
               <span>Plus</span>

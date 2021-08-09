@@ -1,3 +1,3 @@
-const $ = document;
+// const $ = document;
 
-$.addEventListener("DOMContentLoaded", () => {});
+// $.addEventListener("DOMContentLoaded", () => {});
