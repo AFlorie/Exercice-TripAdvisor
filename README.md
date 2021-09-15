@@ -1,7 +1,7 @@
 # Tripadvisor Exercise
 ![](https://img.shields.io/github/last-commit/AFlorie/Exercice-TripAdvisor.svg?style=for-the-badge)
 ![](https://img.shields.io/website?up_color=green&up_message=online&url=https://tripadvisor-replica.netlify.app/)
-![](https://res.cloudinary.com/drshresqr/image/upload/v1631692278/Git%20ReadMe%20Project%20Images/tripadvisor_cloned_ezy3zx.png)
+![test](https://res.cloudinary.com/drshresqr/image/upload/c_scale,w_1827/v1631692278/Git%20ReadMe%20Project%20Images/tripadvisor_cloned_ezy3zx.png)
 
 # Overview
 
